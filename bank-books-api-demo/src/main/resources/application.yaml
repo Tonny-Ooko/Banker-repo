@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+
+p11:
+  masking:
+    enabled: true
+    fields:
+      - email
+      - phoneNumber
+    mask-style: PARTIAL
